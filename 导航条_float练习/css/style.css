@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+/* 设置外层nav样式 */
+.nav{
+    width: 900px;
+    height: 40px;
+    background-color: #d6d5d5;
+    margin: 100px auto;
+    line-height: 40px;
+}
+
+/* 菜单项 */
+.nav li{
+    float: left;
+    width: 150px;
+    /* 如果不设置高度li和nav就会沿基线对齐，就会凸出来一块 */
+    height: 40px;
+    text-align: center;
+}
+
+/* 设置超链接 */
+
+.nav li:hover{
+    background-color: #1f1f1f;
+}
+
+.nav a{
+    /* 扩大超链接的范围 */
+    display: block;
+    width: 150px;
+
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #797979;
+}

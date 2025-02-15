@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f5f5f5;
+    font: 13px / 1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* 设置外层容器 */
+.card{
+    box-sizing: border-box;
+    width: 234px;
+    height: 300px;
+    padding: 20px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* 设置图片的容器 */
+.img-wrapper{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+
+.img-wrapper img{
+    vertical-align: bottom;
+    width: 100%;
+}
+
+/* 设置标题 */
+.card h3{
+    margin-top: 18px;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
+
+/* 设置描述文字 */
+.card .desc{
+    margin: 2px 0 10px;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+
+/* 设置价格 */
+.price span{
+    color: #ff6700;
+    font-size: 14px;
+}
+.price del{
+    color: #b0b0b0;
+    font-size: 14px;
+
+}

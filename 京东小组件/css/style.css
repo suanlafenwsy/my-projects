@@ -1,0 +1,25 @@
+/* 网页中的很多元素都会自带一些默认样式 */
+*{
+    /* 重置元素的padding和margin */
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    /* 去除项目符号 */
+    list-style: none;
+    width: 190px;
+    height: 470px;
+}
+img{
+    vertical-align: top;
+    width: 190px;
+}
+
+/* 祖先 后代{} */
+ul li{
+    margin-bottom: 10px;
+}
+
+ul li:last-child{
+    margin-bottom: 0;
+}

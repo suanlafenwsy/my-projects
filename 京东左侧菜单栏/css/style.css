@@ -1,0 +1,43 @@
+
+/* 去除默认样式 */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+/* 设置外层容器的样式 */
+.menu{
+    box-sizing: border-box;
+    width: 190px;
+    height: 470px;
+    padding: 10px 0;
+/* background-color: #f1f1f1; */
+}
+
+.menu li{
+    height: 25px;
+    line-height: 25px;
+    /* 不能用margin，margin属于盒子外部，会导致hover的效果改变 */
+    padding-left: 18px;
+}
+
+.menu li:hover{
+    background-color: rgb(217,217,217);
+}
+
+.menu a{
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(200,22,35);
+}
+
+.line{
+    font-size: 12px;
+    color:#636363;
+    padding: 0 2px;
+}

@@ -1,0 +1,20 @@
+img{
+    vertical-align: top;
+}
+
+/* 设置外层容器的样式 */
+.banner{
+    width: 590px;
+    height: 470px;
+    position: relative;
+}
+
+/* 设置图片 */
+.img-list li{
+    /* 开启绝对定位 */
+    position: absolute;
+}
+
+.img-list li:nth-child(3){
+    z-index: 1;
+}
